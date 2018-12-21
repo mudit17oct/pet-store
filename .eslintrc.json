@@ -1,0 +1,19 @@
+{
+  "extends": ["eslint:recommended", "prettier", "prettier/react"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jax": true
+    }
+  },
+  "rules": {
+    "react/prop-types": 0,
+    "no-console": 1
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
