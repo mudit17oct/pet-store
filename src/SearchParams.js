@@ -8,6 +8,8 @@ import changeLocation from "./actionCreaters/changeLocation";
 import changeAnimal from "./actionCreaters/changeAnimal";
 import changeBreed from "./actionCreaters/changeBreed";
 
+//SearchParams class for search component to be called independently
+//or from the Results component
 class SearchParams extends React.Component {
   onSubmit() {
     navigate("/Results");
